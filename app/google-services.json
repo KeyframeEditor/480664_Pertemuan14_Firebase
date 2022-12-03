@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "505664152823",
+    "firebase_url": "https://database-papbb-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "database-papbb",
+    "storage_bucket": "database-papbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505664152823:android:d6fd9a8b41669fd8afdff2",
+        "android_client_info": {
+          "package_name": "com.example.pertemuan14_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505664152823-rf41qdirmfpu1vkddc0e47e5cb2fbvte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqei_X4eCud4QVFS3_iPACtsIyA6koVU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505664152823-rf41qdirmfpu1vkddc0e47e5cb2fbvte.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

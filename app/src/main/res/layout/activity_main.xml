@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FIREBASE"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textColor="@color/black"
+            android:padding="25dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton android:id="@+id/radio_mahasiswa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mahasiswa"
+                android:checked="true"
+                android:textSize="20dp"
+                />
+            <RadioButton android:id="@+id/radio_dosen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dosen"
+                android:textSize="20dp"
+                />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/name_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/address_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/insert_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="INSERT"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="50dp">
+            <Button
+                android:id="@+id/read_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LATEST MAHASISWA"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/cardview_dark_background"
+                />
+
+            <Button
+                android:id="@+id/readDosen_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LATEST DOSEN"
+                android:backgroundTint="@color/cardview_dark_background"
+                />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/updatename_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Update Name"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/updateaddress_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Update address"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/update_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="UPDATE DATA"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
